@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>Mr. Holmes</title>
+
+	<link rel="shortcut icon" href="../images/favicon.ico">
+
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+	<style>
+	#playlist{
+		list-style: none;
+	}
+	#playlist li a{
+		color:black;
+		text-decoration: none;
+	}
+	#playlist .current-song a{
+		color:blue;
+	}
+</style>
+
+
+</head>
+<body>
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Logo -->
+				<a href="../index.html" class="logo">
+					<span class="symbol"><img src="../images/holmes.png" alt="" /></span><span class="title">Mr. Holmes</span>
+				</a>
+
+				<!-- Nav -->
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../info.html">Info</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h1>A Study In Scarlet <font size="5px">(1887)</font></h1>
+
+				<style>
+				.parallax { 
+					/* The image used */
+					background-image: url("scarletphoto.jpg");
+
+					/* Set a specific height */
+					height: 300px; 
+
+					/* Create the parallax scrolling effect */
+					background-attachment: fixed;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+			</style>
+
+			<!-- Container element -->
+			<div class="parallax"></div>
+			<br><br><br>
+
+				<h2>Synopsis</h2>
+				<p align="justify"><span class="image right"><a href="A Study In Scarlet.pdf" target="_blank"><img src="scarlet.jpg" alt="" /></a></span>A Study in Scarlet is a popular Sherlock Holmes book written by author Arthur Conan Doyle. Being the first novel is the Holmes detective series by Doyle, A Study in Scarlet largely introduces the reader to the forthcoming series by Doyle. The story features the introduction of Sherlock Holmes and Dr. Watson through mutual friends and a mystery revolving around a corpse found at a derelict house in Brixton, England. A Study in Scarlet is highly recommened for those who enjoy Sherlock Holmes detective novels and also individuals who enjoy the works of Arthur Conan Doyle.</p>
+
+
+				<a href="A Study In Scarlet.pdf" target="_blank" class="button special icon fa-download">Download PDF</a>
+				<br>
+				<audio autostart="0" autoplay="false" type="audio/mpeg" src="" controls id="audioPlayer">
+					Sorry, your browser doesn't support html5!
+				</audio>
+				<ul id="playlist">
+					<li class="current-song"><a href=""></a></li>
+					<table style="width:50%">
+						<tr>
+							<td><li><a href="001 - A Study in Scarlet - Opening Credits and Introduction.mp3">Opening</a></td>
+							<td><li><a href="006 - A Study in Scarlet-Part 01 - Chapter 05.mp3">Part 1 - Chapter 5</a></li></td>
+							<td><li><a href="011 - A Study in Scarlet-Part 02 - Chapter 03.mp3">Part 2 - Chapter 3</a></li></td>
+						</tr>
+						<tr>
+							<td><li><a href="002 - A Study in Scarlet-Part 01 - Chapter 01.mp3">Part 1 - Chapter 1</a></td>
+							<td><li><a href="007 - A Study in Scarlet-Part 01 - Chapter 06.mp3">Part 1 - Chapter 6</a></li></td>
+							<td><li><a href="012 - A Study in Scarlet-Part 02 - Chapter 04.mp3">Part 2 - Chapter 4</a></li></td>
+						</tr>
+						<tr>
+							<td><li><a href="003 - A Study in Scarlet-Part 01 - Chapter 02.mp3">Part 1 - Chapter 2</a></td>
+							<td><li><a href="008 - A Study in Scarlet-Part 01 - Chapter 07.mp3">Part 1 - Chapter 7</a></li></td>
+							<td><li><a href="013 - A Study in Scarlet-Part 02 - Chapter 05.mp3">Part 2 - Chapter 5</a></li></td>
+						</tr>
+						<tr>
+							<td><li><a href="004 - A Study in Scarlet-Part 01 - Chapter 03.mp3">Part 1 - Chapter 3</a></td>
+							<td><li><a href="009 - A Study in Scarlet-Part 02 - Chapter 01.mp3">Part 2 - Chapter 1</a></li></td>
+							<td><li><a href="014 - A Study in Scarlet-Part 02 - Chapter 06.mp3">Part 2 - Chapter 6</a></li></td>
+						</tr>
+						<tr>
+							<td><li><a href="005 - A Study in Scarlet-Part 01 - Chapter 04.mp3">Part 1 - Chapter 4</a></td>
+							<td><li><a href="010 - A Study in Scarlet-Part 02 - Chapter 02.mp3">Part 2 - Chapter 2</a></li></td>
+							<td><li><a href="015 - A Study in Scarlet-Part 02 - Chapter 07.mp3">Part 2 - Chapter 7</a></li></td>
+						</tr>
+					
+					</table>
+				</ul>
+				<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+				<script src="../assets/audioPlayer.js"></script>
+				<script>
+				        // loads the audio player
+				        audioPlayer();
+				    </script>
+
+				    <object data="A Study In Scarlet.pdf" type="application/pdf" width="100%" height="900px">
+				    	<p>Alternative text - include a link <a href="A Study In Scarlet.pdf">to the PDF!</a></p>
+				    </object>
+
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<section>
+						<h2>Contact</h2>
+						<form action="https://formspree.io/gustavosimassilva@gmail.com" method="POST">
+							<div class="field half first">
+								<input type="text" name="Name" id="name" placeholder="Name" />
+							</div>
+							<div class="field half">
+								<input type="email" name="Email" id="email" name="_replyto" placeholder="Email" />
+							</div>
+							<div class="field">
+								<textarea name="Message" id="message" placeholder="Message"></textarea>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send" class="special" /></li>
+							</ul>
+						</form>
+					</section>
+					<section>
+						<h2>Follow</h2>
+						<ul class="icons">
+							<li><a href="http://facebook.com/simasgs" target="_blank" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https:/instagram.com/tudoemsimas" target="_blank" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/GSimas" target="_blank" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="http://www.gsimas.github.io/" target="_blank" class="icon style2 fa-chrome"><span class="label">Phone</span></a></li>
+						</ul>
+					</section>
+					<ul class="copyright">
+						<li>&copy; <a target="_blank" href="http://gsimas.github.io">Gustavo Simas</a>. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/skel.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+	</html>
